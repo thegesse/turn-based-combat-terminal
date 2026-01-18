@@ -8,7 +8,6 @@ public class PotionList {
 
     public PotionList(){
         potions.add(new Potions("Healing-potion", "heals 5hp"));
-        potions.add(new Potions("Shield-potion", "raises defense of the user by 10 for 1 turn"));
         potions.add(new Potions("Strenght-potion", "raises attack of the user by 10 for 1 turn"));
     }
 
@@ -19,4 +18,5 @@ public class PotionList {
         public Potions getRandomPotions() {
         return potions.get(random.nextInt(potions.size()));
     }
+
 }

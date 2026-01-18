@@ -27,4 +27,9 @@ public class Potions {
     public void setEffect(String effect) {
         this.effect = effect;
     }
+    @Override
+    public String toString() {
+        return name + " (" + effect + ")";
+    }
+
 }
